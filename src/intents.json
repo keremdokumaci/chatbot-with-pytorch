@@ -1,0 +1,93 @@
+{
+    "intents": [
+        {
+            "tag" : "greeting",
+            "patterns" : [
+                "Merhaba",
+                "Selam",
+                "Hey",
+                "Nasılsın",
+                "Napıyosun",
+                "Napıyorsun",
+                "Ne yapıyorsun",
+                "İyi günler"
+            ],
+            "responses": [
+                "Hey :-) Ben NavlungoBot. Sana nasıl yardımcı olabilirim ?",
+                "Merhaba. Senin için ne yapabilirim ?",
+                "Selam. Senin navlungo.com üzerinde yapacağın işlemler için yardımcı olabilirim. Sorun nedir ?"
+            ]
+        },
+        {
+            "tag" : "goodbye",
+            "patterns" : [
+                "Görüşürüz",
+                "İyi günler",
+                "Kendine iyi bak",
+                "Bay"
+            ],
+            "responses":[
+                "Görüşürüz. Umarım sana yardımcı olabilmişimdir :)",
+                "İyi günler.. Mutlaka bir daha uğra ;)"
+            ]
+        },
+        {
+            "tag" : "thanks",
+            "patterns" : [
+                "Teşekkürler",
+                "Sağol",
+                "Eyvallah"
+            ],
+            "responses" : [
+                "Ben teşekkür ederim.",
+                "Teşekkürler, görevimiz :)"
+            ]
+        },
+        {
+            "tag" : "shipment-country",
+            "patterns" : [
+                "Hangi ülkelere gönderim yapabilirim ?",
+                "Yurt içinde gönderim var mı ?"
+            ],
+            "responses" : [
+                "Yurt içi taşıma yapılamıyor. Yurt dışına tüm ülkelere taşıma yaptırabilirsiniz.",
+                "Şimdilik sadece yurt dışına taşıma hizmetimiz mevcut."
+            ]
+        },
+        {
+            "tag" : "payment",
+            "patterns" : [
+                "Hangi ödeme yöntemleri var ?",
+                "Ödemeyi nasıl yaparım ?",
+                "Ödeme yapmak istiyorum"
+            ],
+            "responses" : [
+                "Kredi kartı ile, eft ile veya manuel olarak ödeme yapabilirsiniz. (Sevkiyat detaylarında ödeme bloğunu görebilirsiniz.)",
+                "Navlungo üzerinde tüm ödeme yöntemleri kullanılabilir. (Sevkiyat detaylarında ödeme bloğunu görebilirsiniz.)"
+            ]
+        },
+        {
+            "tag" : "shipment-payment",
+            "patterns" : [
+                "Ne kadar tutar?",
+                "Ücret nedir ?",
+                "Fiyat alabilir miyim?",
+                "kaç tl",
+                "kaç dolar",
+                "kaç euro"
+            ]
+        },
+        {
+            "tag" : "funny",
+            "patterns" : [
+                "espri yapar mısın?",
+                "şaka yapsana",
+                "bir espri yap"
+            ],
+            "responses" : [
+                "Yok yapamam.",
+                "Benim yerime Harun yapsın. O daha yetenekli bu konuda"
+            ]
+        }
+    ]
+}
