@@ -75,6 +75,9 @@
                 "kaç tl",
                 "kaç dolar",
                 "kaç euro"
+            ],
+            "responses" : [
+                "Fiyat öğrenmek için yük bilgilerinizi girmeniz gerekmektedir. Sizi ilgili sayfaya yönlendiriyorum. Alanları doldurup 'İleri' butonuna bastıktan sonra karşınıza teklifler gelecektir."
             ]
         },
         {
